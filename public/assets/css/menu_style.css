@@ -1,0 +1,239 @@
+/*Menu*/
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  a {
+    color: #000;
+  }
+  
+  /* header */
+
+  p{
+    font-family: var(--fuentePrincipal);
+  }
+
+  .header {
+   /* background-image: url('../img/JPG/Header.jpg');*/
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background: transparent;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #343434;
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* menu */
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
+  
+
+
+/*icono pulse*/
+
+@keyframes bounce{
+  0%,to{transform:translateY(-25%);
+  animation-timing-function:cubic-bezier(.8,0,1,1)}
+  50%{transform:none;animation-timing-function:cubic-bezier(0,0,.2,1)}}
+
+.w-40{
+  width: 40%;
+}
+.animate-pulse{animation:pulse 2s cubic-bezier(.4,0,.6,1) infinite}
+@keyframes pulse
+{50%{opacity:.5}
+}
+
+.absolute-top{
+  position: absolute;
+  top: 1.3rem;
+  left: 2rem;
+}
+
+.absolute-bottom {
+  position: absolute;
+  bottom: -1.3rem;
+  left: 2rem;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.absolute-center{
+  position: absolute;
+  top: 65%;
+  left: 48%;
+}
+
+.line-height-1 {
+  line-height: 1.3rem;
+}
+
+@keyframes ping{
+  75%,
+  to{transform:scale(2);
+      opacity:0}
+  }
+.animate-ping{
+  animation:ping 1s cubic-bezier(0,0,.2,1) infinite
+}
+
+.circle-red{
+  top:35%;
+  left: 32%;
+  width: 34px; 
+  height: 34px;
+  border-radius: 100%;
+  background-color: #e1576e;
+}
+
+.popover{
+  border-radius: 15px!important;
+  background-color:#e8435e!important;
+  padding-top: 15px;
+}
+.bs-popover-auto[x-placement^=top] .arrow::after, .bs-popover-top .arrow::after {
+  bottom: 1px;
+  border-top-color: #e8435e!important;
+}
+.text-poper{
+  color: white;
+  font-size: 11pt;
+  line-height: 15px;
+}
+
+.form-control-inline{
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #ced4da;    
+}
+
+.form-control-inline:focus{
+  outline: none;
+  border-color: #1b3c80;
+}
