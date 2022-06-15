@@ -1,5 +1,350 @@
-@media only screen and (max-width: 600px) {
-    body{
-        background-color: red
+     /*ESTILOS MOVIL*/
+@media (max-width: 600px) {
+    /*Seccion 1*/
+    .section1_servicios{
+     background-image: url('../img/mobile_img/JPG/fondos/fondo_menu.png');
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     justify-items: center;
+    align-items: center;
+    /* grid-template-rows: repeat(2,1fr);*/
     }
+
+    .container_servicios_text{
+       grid-column: 1/4;
+       grid-row: 3/4;
+    }
+
+    .section1_servicios_text{
+        font-size: 20px;
+        text-align: center;
+        margin: 6%;
+    }
+
+    .section1__button{
+        width: 50%;
+    }
+    
+    .section1__buttons__img{
+        width: 100%;
+        height: 30%;
+        display: none;
+    }
+    
+    .section1_servicios__button{
+        grid-column: 2/3;
+        grid-row: 4/5;
+        width: 100%;
+        display: flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+    }
+
+    .secction__flechas{
+        display: flex;
+        justify-content: center;
+        grid-row: 5/6;
+        grid-column: 2 / 3;
+        width: 100%;
+        height: 18%;
+    }
+
+
+    .img_home{
+        grid-column: 1/4;
+        grid-row: 2/3;
+        width: 80%;
+        height: 100%;
+        display: block;
+    }
+
+    /*Seccion 2*/
+    .section2-servicios{
+        background: none;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(1,1fr);
+        align-items: center;
+        height: 10%;
+    }
+    
+    .container-seccion2 {
+        grid-column: 1/4;
+        grid-row: 1/2;
+        margin: 0%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    /*Section 3*/
+    .section3{
+        display: none;
+    }
+
+    .content{
+        display: block; 
+    }
+
+    .grid-column-2{
+     display: grid;
+     grid-template-columns: auto auto;
+     column-gap: 4%;
+    }
+
+    @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.content:before, .header:before, .content:after, .header:after {
+  content: "";
+  display: table;
+}
+.content :after, .header :after {
+  clear: both;
+}
+
+
+
+.content, .header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardBackSide, .cardFrontSide {
+  backface-visibility: hidden;/*no nos muestra parte de la otra imagen que ya tenemos*/
+  background-color: transparent;/*colo del border la imagen de atras*/
+  /*border-radius: 0.3rem;*/
+  /*box-shadow: 0.15rem 0.15rem 0.1rem 0 rgba(0, 0, 0, 0.3);*/
+  /*color: #5e5e5e;*/
+  cursor: pointer;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transition: 0.75s;/*para que de la vuelta*/
+}
+
+
+.header {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: auto;
+}
+
+.headerBlock {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  font-size: 2rem;
+  height: 5rem;
+  margin-top: 1.5rem;
+}
+.container-secion{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.contentBlock {
+  perspective: 50rem;
+  perspective-origin: center top;
+}
+.contentBlock img {
+  height: auto;
+  width: 100%;
+}
+.contentBlock:hover .cardFrontSide {/*tarjeta de atras*/
+  transform: rotateY(-180deg);
+    margin-top: 2rem;/*para darle el espacio de abjo de la imagen, cara 1*/
+
+}
+.contentBlock:hover .cardBackSide {
+  transform: rotateY(0);
+}
+
+.cardFrontSide {
+  height: auto;
+  position: relative;
+  width: 100%;
+  margin-top: 2rem;
+
+}
+
+.cardFrontContent {
+  padding: 0.5rem 1rem 1rem;
+}
+
+.cardBackSide {/*tarjeta de atras*/
+  height: 100%;
+  padding: 0rem;/*Si le pones un valor te baja la imagen*/
+  position: absolute;
+  top: 0;
+  transform: rotateY(180deg);
+  width: calc(100% - 5px);
+  margin-top: 2rem;/*para darle el espacio de abjo de la imagen, cara 2*/
+}
+
+/*Section 4*/
+.section4{
+    background-image: url('../img/mobile_img/JPG/fondos/años-05.png');
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    height: 90%;
+}
+
+.container-section4{
+  grid-column: 1/3;
+  grid-row: 2/3;
+  margin: 2%;
+  margin-top: 68%;
+}
+
+.section4__img{
+    display: block;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+.container-section4__text {
+    font-size: 12px;
+    text-align: inherit;
+    font-family: var(--fuentePrincipal);
+}
+
+/*Section 5*/
+.section4_1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+
+.section4_1_img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 446px;
+    height: 100%;
+}
+    
+.section5{
+ background: none; 
+ grid-template-columns: repeat(3,1fr);
+ grid-template-rows: repeat(1,1fr);  
+ margin-top: -14%;
+}
+
+.container-section5{
+    grid-column: 1/4;
+}
+
+.container-section5__titulo{
+    font-weight: bold;
+
+}
+
+/*Section 6*/
+.section6{
+    display: none;
+}
+
+
+.section6_1{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(1,1fr);
+}
+
+.container_section6_1
+{
+  grid-column: 1/4;
+  grid-row: 1/2;
+  height: fit-content;
+}
+
+.section7{
+ display: none;
+}
+
+.section7_1{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(1,1fr);
+  background-image:url('../img/JPG/fondos/Fondo_clientes.jpg');
+  height: 30%;
+}
+
+.container-section7_1{
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.container-section7__img{
+  width: 83%;
+  height: 35%;
+}
+
+
+
+ /*Footer*/
+.footer{
+      background-image: url('../img/JPG/fondos/fondo_m_v.jpg');
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(4,1fr);
+     }
+
+.footer__redes{
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+.footer__contacto{
+    grid-row: 3/4;
+    grid-column: 1/3;
+    margin-left: 15%;
+    color: var(--letras);
+    font-size: 15px;
+}
+
+.footer_redes_div{
+    /* float: right; */
+    margin: -8%;
+}
+
+.footer_img{
+  width: 100%;
+  height: 42%;
+  text-decoration: none;
+}
+
+.footer__cotactanos{
+  display: block;
+  grid-column: 1/3;
+  grid-row: 4/5;
+}
+
+.footer__cotactanos_button{
+  border: 1px solid;
+}
+
+.footer_container{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.circulo_abajo {
+  /* display: flex; */
+  /* justify-content: center; */
+  width: 60%;
+  margin: auto;
+}
+
+.flechas_abajo {
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+}
+
+
 }
