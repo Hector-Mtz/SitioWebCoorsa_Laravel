@@ -6,15 +6,21 @@
       </a>
       <a  class="footer_text" href="tel:4423857827" class=""  style="text-decoration:none; color:#424242;">Tel:. 442-385-7827</a>
     </div>
+
+    <div class="footer__cotactanos">
+      <button class="footer__cotactanos_button">
+        <a href="{{url('contacto')}}">contáctanos</a>
+    </button>
+    </div>
   
     <div class="footer__redes">
-       <div  style="float: left ;">
-         <a  class="" href="https://www.linkedin.com/company/corsa-m%C3%A9xico">
+       <div  style="" class="footer_redes_div">
+         <a  href="https://www.linkedin.com/company/corsa-m%C3%A9xico">
            <img class="footer_img" src="{{ asset('assets/img/PNG/logos/Logo_Linkedin_Gris.png') }}" alt="">
          </a>
        </div>
   
-       <div style="float: left ;">
+       <div style="" class="footer_redes_div"> 
          <a href="https://www.facebook.com/coorsamexico">
            <img class="footer_img" src="{{ asset('assets/img/PNG/logos/Logo_facebook_gris.png') }}" alt="">
          </a>

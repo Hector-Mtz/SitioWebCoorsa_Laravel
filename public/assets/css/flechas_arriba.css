@@ -75,3 +75,16 @@
     transform: translateY(-4.8rem) scale(0.5);
   }
 }
+
+@media (max-width: 600px) {
+  .chevron2 {
+    position: absolute;
+    margin-bottom: 1%;
+    width: 2rem;
+    height: 0.48rem;
+    opacity: 0;
+    transform: scale(0.3);
+    -webkit-animation: move-chevron2 3s ease-out infinite;
+            animation: move-chevron2 3s ease-out infinite;
+  }
+}

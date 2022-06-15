@@ -14,8 +14,10 @@
              </h2>
           </div>
 
+          <img class="img_home" src="{{ asset('assets/img/mobile_img/PNG/logos/logo_coorsa_home.png') }}" alt="">
+
           <button class="section1_servicios__button">
-              <a href="#">Contáctanos</a>
+              <a href="{{url('contacto')}}">Contáctanos</a>
           </button>
 
           <div class="section1__buttons">
@@ -162,6 +164,124 @@
            <div class="swiper-button-next"></div>
         </div>
        </section>
+
+       <section class="content">
+        <div class="grid-column-2">
+            <article class="contentBlock">
+                <div class="cardFrontSide">
+                    <img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 1 1.png" alt="">
+                </div>
+                <!--Parte de atras de la imagen-->
+                <div class="cardBackSide">
+                    <p><img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 1 2.png" alt=""></p>
+                </div>
+            </article>
+            <article class="contentBlock">
+                <div class="cardFrontSide">
+                    <img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 2 1.png" alt="">
+                </div>
+                <!--Parte de atras de la imagen-->
+                <div class="cardBackSide">
+                    <p><img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 2 2.png" alt=""></p>
+                </div>
+            </article>
+
+            <!--***********************************************************************************************************************************************-->
+            <!--***********************************************************************************************************************************************-->
+            <article class="contentBlock">
+                <div class="cardFrontSide">
+                    <img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 3 1.png" alt="">
+                </div>
+
+                <!--Parte de atras de la imagen-->
+                <div class="cardBackSide">
+                    <p><img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 3 2.png" alt=""></p>
+                </div>
+            </article>
+
+            <article class="contentBlock">
+                <div class="cardFrontSide">
+                    <img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 4 1.png" alt="">
+                </div>
+
+                <!--Parte de atras de la imagen-->
+                <div class="cardBackSide">
+                    <p><img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 4 2.png" alt=""></p>
+                </div>
+            </article>
+            <!--***********************************************************************************************************************************************-->
+            <!--***********************************************************************************************************************************************-->
+            <article class="contentBlock">
+                <div class="cardFrontSide">
+                    <img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 5 1.png" alt="">
+                </div>
+
+                <!--Parte de atras de la imagen-->
+                <div class="cardBackSide">
+                    <p><img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 5 2.png" alt=""></p>
+                </div>
+            </article>
+
+            <article class="contentBlock">
+                <div class="cardFrontSide">
+                    <img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 6 1.png" alt="">
+                </div>
+
+                <!--Parte de atras de la imagen-->
+                <div class="cardBackSide">
+                    <p><img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 6 2.png" alt=""></p>
+                </div>
+            </article>
+            <!--***********************************************************************************************************************************************-->
+            <!--***********************************************************************************************************************************************-->
+
+            <article class="contentBlock">
+                <div class="cardFrontSide">
+                    <img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 7 1.png" alt="">
+                </div>
+
+                <!--Parte de atras de la imagen-->
+                <div class="cardBackSide">
+                    <p><img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 7 2.png" alt=""></p>
+                </div>
+            </article>
+
+            <article class="contentBlock">
+                <div class="cardFrontSide">
+                    <img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 8 1.png" alt="">
+        
+                </div>
+
+                <!--Parte de atras de la imagen-->
+                <div class="cardBackSide">
+                    <p><img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 8 2.png" alt=""></p>
+                </div>
+            </article>
+            <article class="contentBlock">
+                <div class="cardFrontSide">
+                    <img src="assets/img/mobile_img/JPG/servicios/img_serv.png" alt="servicios">
+                </div>
+
+                <!--Parte de atras de la imagen-->
+                <div class="cardBackSide">
+                    <p>  <img src="assets/img/mobile_img/JPG/servicios/img_serv.png" alt="servicios"></p>
+                </div>
+            </article>
+            <!--***********************************************************************************************************************************************-->
+            <!--***********************************************************************************************************************************************-->
+
+            <article class="contentBlock">
+                <div class="cardFrontSide">
+                    <img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 9 1.png" alt="">
+                </div>
+
+                <!--Parte de atras de la imagen-->
+                <div class="cardBackSide">
+                    <p><img src="assets/img/mobile_img/JPG/servicios/Mesa de trabajo 9 2.png" alt=""></p>
+                </div>
+            </article>
+        </div>
+    </section>
    
        <!--Seccion Años -->
        <section class="section4">
@@ -217,6 +337,9 @@
        </section>
        
        <!--Seccion Insights -->
+       <section class="section4_1">
+          <img class="section4_1_img" src="assets/img/JPG/fondos/Fondo_Insigths.jpg" alt="">
+       </section>
        <section class="section5">
          <div class="container-section5">
             <h1 class="container-section5__titulo">INSIGHTS</h1>
@@ -241,9 +364,39 @@
              </div>
          </div>
        </section>
+
+       <section class="section6_1">
+          <div class="container_section6_1">
+              <div class="swiper mySwiper3">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img  class="container-section7__img" src="assets/img/mobile_img/JPG/insights/Insigths-24.png"/>
+                  </div>
+                  <div class="swiper-slide">
+                    <img  class="container-section7__img" src="assets/img/mobile_img/JPG/insights/Insigths-25.png">
+                  </div>
+                  <div class="swiper-slide">
+                    <img  class="container-section7__img" src="assets/img/mobile_img/JPG/insights/Insigths-26.png"/>
+                  </div>
+                  <div class="swiper-slide">
+                    <img   class="container-section7__img" src="assets/img/mobile_img/JPG/insights/Insigths-27.png"/>
+                  </div> 
+                </div> 
+            </div>
+          </div>
+       </section>
+
+       <section class="section6_2">
+           <div class="container_section6_2">
+              <h2 class="section6_2__text1">Nuestros</h2>
+              <h1 class="section6_2__text2">
+                <strong>CLIENTES</strong>
+              </h1>
+           </div>
+       </section>
    
        <!--Seccion Clientes -->
-       <section class="section7">
+      <section class="section7">
        <div class="container-section7">
            <div class="swiper mySwiper2">
            <div class="swiper-wrapper">
@@ -274,7 +427,40 @@
            </div> 
        </div>
       </div>
-       </section>
+    </section>
+
+    <section class="section7_1">
+      <div class="container-section7_1">
+         <div class="swiper mySwiper4">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img  class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_CHEDRAUI.png"/>
+              </div>
+              <div class="swiper-slide">
+                <img  class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_COLGATE.png">
+              </div>
+              <div class="swiper-slide">
+                <img  class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_DHL.png"/>
+              </div>
+              <div class="swiper-slide">
+                <img   class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_KIMBERLY.png"/>
+              </div>
+              <div class="swiper-slide">
+                <img  class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_PURINA.png"/>
+              </div>  
+              <div class="swiper-slide">
+                <img  class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_SORIANA.png">
+              </div>  
+              <div class="swiper-slide">
+                <img  class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_UNILEVER.png">
+              </div>  
+              <div class="swiper-slide">
+                <img  class="container-section7__img" src="assets/img/PNG/logos_clientes/LOGO_WALMART.png">
+              </div>  
+            </div> 
+        </div>
+      </div>
+    </section>
 <!--Importamos la cabecera-->
 <x-footer></x-footer>
 </body>

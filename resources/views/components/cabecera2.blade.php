@@ -54,7 +54,8 @@
       </a>
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn">
-        <span class="navicon"></span>
+        <img src="../assets/mobile_img/SVG/elementos/burger_line_list_menu_nav_navigation_option_icon_123231.svg" alt="">
+        a
       </label>
       <ul class="menu">
         <li><a href="{{url('/')}}">Servicios</a></li>

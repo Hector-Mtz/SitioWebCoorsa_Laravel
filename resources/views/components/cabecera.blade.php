@@ -16,6 +16,8 @@
      <link href="{{ asset('assets/css/menu_style.css') }}" rel="stylesheet">
      <!--Estilos General-->
      <link href="{{ asset('assets/css/general_style.css') }}" rel="stylesheet">
+     
+     <link href="{{ asset('assets/css/mobile_style.css') }}" rel="stylesheet">
      <!--Flechas hacia abajo-->
      <link href="{{ asset('assets/css/flechas.css') }}" rel="stylesheet">
      <!--Flechas hacia abajo-->
@@ -47,12 +49,12 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <header class="header" id="header">
-    <a href="#" class="logo">
+    <a href="{{url('/')}}" class="logo">
         <img style="width:3rem; heigth:3rem;" src="{{ asset('assets/img/PNG/logos/Logo_Rosa_Coorsa.png') }}" alt="logo_coorsa">
       </a>
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn">
-        <span class="navicon"></span>
+        <img src="{{ asset('assets/img/mobile_img/SVG/elementos/burger_line_list_menu_nav_navigation_option_icon_123231.svg') }}" alt="menu">
       </label>
       <ul class="menu">
         <li><a href="{{url('/')}}">Servicios</a></li>
