@@ -98,6 +98,103 @@
 </div>
 </section>
 
+<section id="detras" class="py-4 seccion3_1_detrasde">
+  <section class="clientes">
+      <div class="px-4 top-menu-background">
+          <div class="ml-4">
+              <h5 class="d-inline text-blue font-weight-900">
+                  DETRÁS DE
+              </h5> 
+              <p class="h5 text-gray-500">COORSA
+              </p>
+          </div>
+          <article>
+              <div class="row">
+                  <div class="container-fluid">
+                      <a href="/assets/images/detras/visita.png"
+                          data-fancybox="visita">
+                          <img class="w-full" src="/assets/images/detras/visita.png" alt="Visita_Protectora_Animales">
+                      </a>
+                     <div class="d-none">
+                      <a href="/assets/images/detras/asociacion/1.JPG"
+                          data-fancybox="visita"></a>
+                      <a href="/assets/images/detras/asociacion/2.JPG"
+                          data-fancybox="visita"></a>
+                      <a href="/assets/images/detras/asociacion/3.JPG"
+                          data-fancybox="visita"></a>
+                      <a href="/assets/images/detras/asociacion/4.JPG"
+                          data-fancybox="visita"></a>
+                      <a href="/assets/images/detras/asociacion/5.JPG"
+                          data-fancybox="visita"></a>
+                          
+                      <a href="/assets/images/detras/asociacion/6.JPG"
+                      data-fancybox="visita"></a>
+                     </div>
+                  </div>
+              </div>
+              <div class="row mt-4">
+                  <div class="col-6 pr-1">
+                      <div class="position-relative mb-2">
+                          <a href="/assets/images/detras/anio_nuevo.png"
+                              data-fancybox="anio_nuevo">    
+                              <img class="w-full" 
+                              src="/assets/images/detras/anio_nuevo.png" alt="anio_nuevo">    
+                          </a>
+                          <div class="d-none">
+                          <a href="/assets/images/detras/anio_nuevo/1.JPG"
+                              data-fancybox="anio_nuevo"></a>
+                          <a href="/assets/images/detras/anio_nuevo/2.JPG"
+                              data-fancybox="anio_nuevo"></a>
+                          <a href="/assets/images/detras/anio_nuevo/3.JPG"
+                              data-fancybox="anio_nuevo"></a>
+                          <a href="/assets/images/detras/anio_nuevo/4.JPG"
+                              data-fancybox="anio_nuevo"></a>
+                          <a href="/assets/images/detras/anio_nuevo/5.JPG"
+                              data-fancybox="anio_nuevo"></a>
+                              
+                          <a href="/assets/images/detras/anio_nuevo/6.JPG"
+                          data-fancybox="anio_nuevo"></a>
+                          </div>
+                      </div>
+                      <p class="text-gray-500">
+                          En <strong>COORSA</strong> nos interesa que 
+                          cada uno de nuestros 
+                          integrantes se desarolle de 
+                          manera profesional y
+                          personal.
+                      </p>
+                  </div>
+                  <div class="col-6 pl-1">
+                      <h5 class="text-gray-500">
+                          MÁS QUE UNA EMPRESA
+                          <strong class="h5">SOMOS</strong> UNA 
+                          <strong  class="h5">FAMILIA.</strong>
+                      </h5>
+                      <div class="position-relative mt-3">
+                          <a href="/assets/images/detras/birthday.png"
+                              data-fancybox="cumple">    
+                              <img class="w-full"
+                              src="/assets/images/detras/birthday.png" 
+                              alt="birthday"/>
+                          </a>
+                          <div class="d-none">
+                              <a href="/assets/images/detras/cumple/1.jpg"
+                                  data-fancybox="cumple"></a>
+                              <a href="/assets/images/detras/cumple/2.jpg"
+                                  data-fancybox="cumple"></a>
+                              <a href="/assets/images/detras/cumple/3.jpg"
+                                  data-fancybox="cumple"></a>  
+                      </div>
+                      
+                  </div>
+              </div>
+          </article>
+      </div>
+  </section>
+  
+</section>
+
+
 <section class="section4-detrasde">
  <h4 class="section4-detrasde__text">
      En COORSA nos interesa que cada uno de nuestros integrantes se desarrolle

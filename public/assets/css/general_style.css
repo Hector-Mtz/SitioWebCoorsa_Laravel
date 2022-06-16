@@ -431,6 +431,14 @@ grid-column: 2 / 3;
      background-repeat: no-repeat;
      padding:  2rem 2rem;
    }
+
+   .section3--conocenos2{
+     display: none;
+   }
+
+   .section5__text0{
+    display: none;
+   }
    
    .section5__text1{
      color: white;
@@ -446,6 +454,8 @@ grid-column: 2 / 3;
    .section1__conocenos_1{
     display: none;
    }
+   
+
    
    /*Detras de */
     /*Seccion1*/
@@ -508,6 +518,10 @@ grid-column: 2 / 3;
    
    .section3-detrasde__slider{
      grid-column: 1/4;
+   }
+
+   .seccion3_1_detrasde{
+    display: none;
    }
    
     /*Seccion 4*/

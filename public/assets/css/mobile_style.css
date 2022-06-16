@@ -379,6 +379,46 @@
   display: none;
 }
 
+.section3--conocenos2{
+  display: block;
+}
+
+.section4--conocenos{
+  display: none;
+}
+
+.section5__mapa{
+  height: 50%;
+}
+
+.section5__text0{
+  display: block;
+  color: var(--blanco);
+  font-family: var(--fuentePrincipal);
+}
+
+
+/*Detras de styles*/
+
+/*Seccion2*/
+.section2-detrasde{
+  display: none;
+}
+
+/*Seccion3*/
+.section3-detrasde{
+  display: none;
+}
+
+.seccion3_1_detrasde{
+  display: block;
+ }
+
+/*Seccion4*/
+.section4-detrasde{
+  display: none;
+}
+
  /*Footer*/
 .footer{
       background-image: url('../img/JPG/fondos/fondo_m_v.jpg');
