@@ -65,19 +65,46 @@
        <span>algo </span>
        <span>mejor.</span>
     </p>
- </section>
+</section>
+
+<section class="section1__conocenos_1" id="seccion__inicio">
+   <h1 class="section1_conocenos_1_text">
+      <span class="barra"></span>
+      <br>CONÓCENOS
+    </h1>
+   <div class="section1__conocenos_1_container">
+         <div class="swiper mySwiper5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img  class="" src="assets/img/mobile_img/JPG/elementos/Mision.png"/>
+              </div>
+              <div class="swiper-slide">
+                <img  class="" src="assets/img/mobile_img/JPG/elementos/Vision.png">
+              </div> 
+            </div> 
+        </div>
+   </div>
+</section>
 
  <section class="section2--conocenos">
     <div class="section2--conocenos--container">
       <h3 class="section2--conocenos__titulo1">Nuestros</h3>
       <h2 class="section2--conocenos__titulo2">DIRECTIVOS COORPORATIVOS</h2>
     </div>
-    <h4 class="section2--conocenos__text">Conoce al increíble equipo detrás de este proyecto y descubre <br> más  sobre cómo trabajamos</h4>
+    <h4 class="section2--conocenos__text">Conoce al increíble equipo detrás de este proyecto y descubre 
+      <br> más  sobre cómo trabajamos
+   </h4>
+   <h4 class="section2--conocenos__text2">Conoce al increíble equipo detrás de este proyecto y descubre más  sobre cómo trabajamos
+   </h4>
  </section>
  
  <section class="section3--conocenos">
    <div id="chartOrganigrama">
    </div>
+ </section>
+
+ <section>
+   <div id="chartOrganigrama_Movil"></div>
  </section>
 
  <section class="section4--conocenos">

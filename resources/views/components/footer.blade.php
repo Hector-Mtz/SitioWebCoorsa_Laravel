@@ -9,8 +9,8 @@
 
     <div class="footer__cotactanos">
       <button class="footer__cotactanos_button">
-        <a href="{{url('contacto')}}">contáctanos</a>
-    </button>
+        <a class="footer_button_text" href="{{url('contacto')}}">contáctanos</a>
+      </button>
     </div>
   
     <div class="footer__redes">
@@ -86,5 +86,6 @@
   <script src="https://cdn.amcharts.com/lib/4/plugins/forceDirected.js"></script>
   <script src=" {{ asset('assets/js/mapaMx.js')}}"></script>
   <script src="{{ asset('assets/js/chartOrganigrama.js')}}"></script>
+  <script src="{{ asset('assets/js/chartOrganigrama_Movil.js')}}"></script>
     
   

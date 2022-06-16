@@ -353,6 +353,10 @@ grid-column: 2 / 3;
      grid-template-rows: repeat(2,1fr);
      background-color: white;
    }
+
+   .section2--conocenos__text2{
+    display: none;
+   }
    
    .section2--conocenos--container{
      grid-row: 1/2;
@@ -436,6 +440,11 @@ grid-column: 2 / 3;
    .section5__text2{
      color: white;
      font-family: var(--fuentePrincipal);
+   }
+
+  /*Conocenos Mobile*/
+   .section1__conocenos_1{
+    display: none;
    }
    
    /*Detras de */
