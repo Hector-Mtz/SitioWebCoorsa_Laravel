@@ -111,49 +111,43 @@
           <article>
               <div class="row">
                   <div class="container-fluid">
-                      <a href="/assets/images/detras/visita.png"
-                          data-fancybox="visita">
-                          <img class="w-full" src="/assets/images/detras/visita.png" alt="Visita_Protectora_Animales">
+                      <a href="assets/img/JPG/detras/asociacion/1.JPG"
+                          data-fancybox="visita1">
+                          <img class="w-full" src="assets/img/mobile_img/JPG/portadas_detras/visita.png" alt="Visita_Protectora_Animales">
                       </a>
-                     <div class="d-none">
-                      <a href="/assets/images/detras/asociacion/1.JPG"
-                          data-fancybox="visita"></a>
-                      <a href="/assets/images/detras/asociacion/2.JPG"
-                          data-fancybox="visita"></a>
-                      <a href="/assets/images/detras/asociacion/3.JPG"
-                          data-fancybox="visita"></a>
-                      <a href="/assets/images/detras/asociacion/4.JPG"
-                          data-fancybox="visita"></a>
-                      <a href="/assets/images/detras/asociacion/5.JPG"
-                          data-fancybox="visita"></a>
-                          
-                      <a href="/assets/images/detras/asociacion/6.JPG"
-                      data-fancybox="visita"></a>
+                     <div class="d-none" style="display: none">
+                      <a href="assets/img/JPG/detras/asociacion/2.JPG"
+                          data-fancybox="visita1"></a>
+                      <a href="assets/img/JPG/detras/asociacion/3.JPG"
+                          data-fancybox="visita1"></a>
+                      <a href="assets/img/JPG/detras/asociacion/4.JPG"
+                          data-fancybox="visita1"></a>
+                      <a href="assets/img/JPG/detras/asociacion/5.JPG"
+                          data-fancybox="visita1"></a> 
+                      <a href="assets/img/JPG/detras/asociacion/6.JPG"
+                      data-fancybox="visita1"></a>
                      </div>
                   </div>
               </div>
               <div class="row mt-4">
                   <div class="col-6 pr-1">
                       <div class="position-relative mb-2">
-                          <a href="/assets/images/detras/anio_nuevo.png"
-                              data-fancybox="anio_nuevo">    
+                          <a href="assets/img/JPG/detras/anio_nuevo/1.JPG"
+                              data-fancybox="anio_nuevo1">    
                               <img class="w-full" 
-                              src="/assets/images/detras/anio_nuevo.png" alt="anio_nuevo">    
+                              src="assets/img/mobile_img/JPG/portadas_detras/anio_nuevo.png" alt="anio_nuevo">    
                           </a>
-                          <div class="d-none">
-                          <a href="/assets/images/detras/anio_nuevo/1.JPG"
-                              data-fancybox="anio_nuevo"></a>
-                          <a href="/assets/images/detras/anio_nuevo/2.JPG"
-                              data-fancybox="anio_nuevo"></a>
-                          <a href="/assets/images/detras/anio_nuevo/3.JPG"
-                              data-fancybox="anio_nuevo"></a>
-                          <a href="/assets/images/detras/anio_nuevo/4.JPG"
-                              data-fancybox="anio_nuevo"></a>
-                          <a href="/assets/images/detras/anio_nuevo/5.JPG"
-                              data-fancybox="anio_nuevo"></a>
-                              
-                          <a href="/assets/images/detras/anio_nuevo/6.JPG"
-                          data-fancybox="anio_nuevo"></a>
+                          <div class="d-none"  style="display: none">
+                          <a href="assets/img/JPG/detras/anio_nuevo/2.JPG"
+                              data-fancybox="anio_nuevo1"></a>
+                          <a href="assets/img/JPG/detras/anio_nuevo/3.JPG"
+                              data-fancybox="anio_nuevo1"></a>
+                          <a href="assets/img/JPG/detras/anio_nuevo/4.JPG"
+                              data-fancybox="anio_nuevo1"></a>
+                          <a href="assets/img/JPG/detras/anio_nuevo/5.JPG"
+                              data-fancybox="anio_nuevo1"></a>   
+                          <a href="assets/img/JPG/detras/anio_nuevo/6.JPG"
+                          data-fancybox="anio_nuevo1"></a>
                           </div>
                       </div>
                       <p class="text-gray-500">
@@ -171,19 +165,17 @@
                           <strong  class="h5">FAMILIA.</strong>
                       </h5>
                       <div class="position-relative mt-3">
-                          <a href="/assets/images/detras/birthday.png"
-                              data-fancybox="cumple">    
+                          <a href="assets/img/JPG/detras/cumple/1.jpg"
+                              data-fancybox="cumple1">    
                               <img class="w-full"
-                              src="/assets/images/detras/birthday.png" 
+                              src="assets/img/mobile_img/JPG/portadas_detras/birthday.png" 
                               alt="birthday"/>
                           </a>
                           <div class="d-none">
-                              <a href="/assets/images/detras/cumple/1.jpg"
-                                  data-fancybox="cumple"></a>
-                              <a href="/assets/images/detras/cumple/2.jpg"
-                                  data-fancybox="cumple"></a>
-                              <a href="/assets/images/detras/cumple/3.jpg"
-                                  data-fancybox="cumple"></a>  
+                              <a href="assets/img/JPG/detras/cumple/2.jpg"
+                                  data-fancybox="cumple1"></a>
+                              <a href="assets/img/JPG/detras/cumple/3.jpg"
+                                  data-fancybox="cumple1"></a>  
                       </div>
                       
                   </div>
