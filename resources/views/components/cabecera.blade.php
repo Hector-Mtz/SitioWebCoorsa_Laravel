@@ -48,20 +48,63 @@
      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
-<header class="header" id="header">
-    <a href="{{url('/')}}" class="logo">
-        <img style="width:3rem; heigth:3rem;" src="{{ asset('assets/img/PNG/logos/Logo_Rosa_Coorsa.png') }}" alt="logo_coorsa">
-      </a>
-      <input class="menu-btn" type="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn">
-        <img src="{{ asset('assets/img/mobile_img/SVG/elementos/burger_line_list_menu_nav_navigation_option_icon_123231.svg') }}" alt="menu">
-      </label>
-      <ul class="menu">
-        <li><a href="{{url('/')}}">Servicios</a></li>
-        <li><a href="{{url('conocenos')}}">Conócenos</a></li>
-        <li><a href="{{url('detras')}}">Detrás de</a></li>
-        <li  style="">
-          <a href="{{url('contacto')}}">Contacto</a>
+<header class="header-menu">
+  <!--MENÚ-->
+  <section class="navigation">
+    <nav>
+      <div class="nav-movil">
+        <a id="nav-boton" href="#">
+          <span></span>
+        </a>
+      </div>
+      <ul class="nav-menu">
+        <li>
+            <a class="active"  href="/index.html">
+            <span class="md-border-b-gray pl-4 pb-2">
+                INICIO
+            </span> 
+            </a>
         </li>
-      </ul>
+        <li>
+            <a href="/conocenos.html">
+                <span class="md-border-b-gray pl-4 pb-2">
+                    CONÓCENOS        
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/detras.html">
+                <span class=" pl-4 pb-2">
+                    DETRÁS DE        
+                </span>
+            </a>
+        </li>
+        <li style="width: 100%; height: 50vh;">
+            <div class="menu-contacto">
+                <div class="text-white">
+                    <p class="text-left">
+                        <a class="pb-2" href="/contacto.html">
+                            <span class="font-weight-900">
+                                contacto 
+                            </span>
+                        </a>
+                        <span class="pb-2">
+                            <a href="mailto:contacto@coorsamexico.com">contacto@coorsamexico.com</a>
+                        </span>
+                        <br>
+                        <span class="font-montserrat">     
+                            <a href="tel:442-385-782">tel. 442-385-782</a>
+                        </span>    
+                    </p>
+                    <div class="col-6">
+                        <a class="btn-grad  btn-grad-blue" href="/contacto.html">Contacto</a>
+                    </div>
+                </div>
+                
+            </div>
+        </li>
+     </ul>
+    </nav>
+  </section> 
+  <a href=""></a>
 </header>

@@ -626,6 +626,10 @@ grid-column: 2 / 3;
   height: 80%;
 }
 
+.section-contacto2{
+  display: none;
+}
+
 
 .section4-contacto__texts{
   color: white;

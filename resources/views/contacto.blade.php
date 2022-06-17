@@ -2,7 +2,7 @@
 
   <section class="section1_contacto"  id="seccion__inicio">
       <div class="section1_contacto__container">
-          <h1>UBÍCANOS</h1>
+          <h1 class="section1__contacti_text">UBÍCANOS</h1>
       </div>
 
       <div class="section1_contacto2__container">
@@ -55,6 +55,98 @@
   </div>
 
 </section>  
+
+<!--Partes Moviles-->
+
+<!--Contacto Sección-->
+<section id="contacto" class="py-4 section-contacto2">
+    <section class="clientes">
+        <div class="mb-4">
+            <div class="m-auto" style="width: 50%;">
+                <h5 class="d-inline text-blue font-weight-900 section-contacto2_text1">
+                    CONTACTO
+                </h5> 
+                <div class="d-inline-block">
+                    <div class="container-lines">
+                        <span class="lines-pinks"></span>
+                    </div>
+                </div>
+                <p class="h6 text-gray-500">
+                    Estamos para ayudarte
+                </p>
+            </div>
+        </div>
+
+        <div class="row m-0">
+            <div class="col-6">
+                <form method="post" id="formContacto" novalidate
+                class="col rounded-field">
+                    <div class="form-row mb-2">
+                        <input type="text" 
+                        name="nombre" 
+                        id="nombre" required 
+                        class="form-control-inline" 
+                        placeholder="Nombre Completo">
+                    </div>
+                    <div class="form-row mb-2">
+                        <input type="email" 
+                        name="email" 
+                        id="email" required
+                        class="form-control-inline" 
+                        placeholder="Correo">
+                    </div>
+                    <div class="form-row mb-2">
+                        <input type="text" 
+                        name="cuidad" id="cuidad" 
+                        required class="form-control-inline" 
+                        placeholder="Cuidad">
+                    </div>
+                    <div class="form-row mb-2">
+                        <input type="tel" 
+                        name="telefono" id="telefono" 
+                        required class="form-control-inline" 
+                        placeholder="Número Telefónico">
+                    </div>
+
+                    <div class="form-row mb-2">
+                        <textarea rows="3" 
+                        name="mensaje" 
+                        id="mensaje" 
+                        placeholder="Mensaje"
+                        class="form-control-inline"></textarea>
+                    </div>
+                    <div class="form-row text-center">
+                        <button name="enviar_contacto" 
+                        id="enviar_contacto" 
+                        type="submit" 
+                        class="form-btn mx-auto btn-grad btn-grad-blue section-contacto2_button">
+                        enviar</button>
+                        <div id="results"
+                         
+                        style="display: none;"
+                        class="alert alert-success">
+
+                        </div>
+                        <div id="resultsError" 
+                        style="display: none;"
+                        class="alert alert-danger" role="alert">
+                        
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-6 overflow-auto">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3733.244333310589!2d-100.3298401!3d20.6596363!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35d1a9e9acb5b%3A0xd0d09aae0384a90a!2sTerra%20Business%20Park!5e0!3m2!1ses!2smx!4v1651521745942!5m2!1ses!2smx" 
+                style="height: 100%; width:100% "
+                allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+        </div>
+    </section>
+    
+</section>
 
 
 <x-footer></x-footer>
