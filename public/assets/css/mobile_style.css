@@ -9,6 +9,15 @@
    
    /*ESTILOS MOVIL*/
 @media (max-width: 600px) {
+
+  .header-menu{
+    display: block;
+  }
+
+  .header{
+    display: none;
+  }
+
     /*Seccion 1*/
     .section1_servicios{
      background-image: url('../img/mobile_img/JPG/fondos/fondo_menu.png');
@@ -193,13 +202,15 @@
   margin-top: 2rem;/*para darle el espacio de abjo de la imagen, cara 2*/
 }
 
+
+
 /*Section 4*/
 .section4{
     background-image: url('../img/mobile_img/JPG/fondos/años-05.png');
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
-    height: 70%;
+    height: 60%;
 }
 
 .container-section4{

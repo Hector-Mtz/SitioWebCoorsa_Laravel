@@ -1,338 +1,111 @@
-.header-menu{
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-}
-
-.navigation button {
-    color: #fff;
-    background-color: red;
-    border-color: rgb(0, 255, 55);
-}
-nav {
-  float: left;
-  width:100%;
-}
-
-.nav-menu {
-  display:blocK;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  /*background:#001628;*/
-  background-image: url('../img/fondo_menu.png');
-  background-size: cover;
-  
-  background-repeat: no-repeat;
-}
-
-nav ul li {
-  float: left;
-  position: relative;
-  font-weight: bold;
-}
-
-nav ul li a {
-  display: block;
-  padding: 0 20px;
-  line-height: 70px;
-  color: white;
-  text-decoration: none;
-  
-}
-
-nav ul li a:hover {
-  background: #2581dc;
-  color: #ffffff;
-}
-
-/* nav ul li a:not(:only-child):after {
-  padding-left: 5px;
-  content: ' ▾';
-} */
-
-.nav-submenu {
-  width:auto;
-  position: absolute;
-  z-index: 1;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  width: auto;
-  display: none;
-}
-
-.nav-submenu li {
+.header {
+  /* background-image: url('../img/JPG/Header.jpg');*/
+   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+   position: fixed;
    width: 100%;
-   white-space: nowrap;
-}
-
-.nav-movil {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background:transparent;
-  height: 13vh;
-  width: 100%;
-}
-
-@media screen and (max-width: 979px) {
-  .nav-movil {
-    display: block;
-  }
-
-  .nav-menu {
-
+   z-index: 3;
+ }
+ 
+ .header ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   overflow: hidden;
+   background: transparent;
+ }
+ 
+ .header li a {
+   display: block;
+   padding: 20px 20px;
+   color: white;
+   text-decoration: none;
+ }
+ 
+ .header li a:hover,
+ .header .menu-btn:hover {
+   background-color: #343434;
+ }
+ 
+ .header .logo {
+   display: block;
+   float: left;
+   font-size: 2em;
+   padding: 10px 20px;
+   text-decoration: none;
+ }
+ 
+ /* menu */
+ 
+ .header .menu {
+   clear: both;
+   /* max-height: 0; */
+   display: inline-flex;
+   transition: max-height .2s ease-out;
+ }
+ 
+ /* menu icon */
+ 
+ .header .menu-icon {
+   cursor: pointer;
+   display: inline-block;
+   float: right;
+   padding: 28px 20px;
+   position: relative;
+   user-select: none;
+ }
+ 
+ .header .menu-icon .navicon {
+   background: #333;
+   display: block;
+   height: 2px;
+   position: relative;
+   transition: background .2s ease-out;
+   width: 18px;
+ }
+ 
+ .header .menu-icon .navicon:before,
+ .header .menu-icon .navicon:after {
+   background: #333;
+   content: '';
+   display: block;
+   height: 100%;
+   position: absolute;
+   transition: all .2s ease-out;
+   width: 100%;
+ }
+ 
+ .header .menu-icon .navicon:before {
+   top: 5px;
+ }
+ 
+ .header .menu-icon .navicon:after {
+   top: -5px;
+ }
+ 
+ /* menu btn */
+ 
+ .header .menu-btn {
    display: none;
-   padding-top: 90px;
-   height: 100vh;
-   align-content: flex-end;
-   justify-content: flex-start;
-   align-items: flex-end;
-   flex-direction: column
-  }
-  
-  .nav-menu li {
-    float: none;
-    width: 50%;
-    padding: 10px;
-    text-align: right;
-    margin-right: 10%;
-  }
-  .nav-menu li a {
-    line-height: 10px;
-    padding: 0.3rem;
-  }
-  .nav-menu li ul li a {
-    padding-left: 30px;
-  }
-  
-  .nav-submenu {
-    position: static;
-  }
-  .menu-contacto{
-    display: flex;
-    justify-content: right;
-    margin-top: 25vh;
-  }
-}
-
-@media screen and (min-width: 980px) {
-  .nav-menu {
-    display: block !important;
-  }
-}
-
-#nav-boton {
-  border: 2px solid gray; 
-  border-radius: 100%;
-  position: absolute;
-  display: block;
-  right: 7vw;
-  top: 1.1rem;
-  cursor: pointer;
-  width: 43px;
-  height: 43px;
-  padding: 3px;
-  z-index:100;
-}
-
-#nav-boton span,
-#nav-boton span:after,
-#nav-boton span:before {
-  transition: all 500ms ease-in-out;
-  border-radius: 1px;
-  height: 2px;
-  width: 25px;
-  position: absolute;
-  top:50%;
-  margin-left: 10%;
-  display: block;
-  content: "";
-  background: #fff;
-}
-
-#nav-boton span:before {
-  width: 15px;
-  margin-left: -5%;
-  top: -10px;
-}
-#nav-boton span:after {
-  width: 15px;
-  right: 0;
-  top: 10px;
-}
-
-#nav-boton.activo span {
-  background-color: transparent;
-}
-
-#nav-boton.activo span:before,
-#nav-boton.activo span:after {
-  top: 0;
-}
-.md-border-b-gray{
-  border-bottom: solid 1px gray;
-}
-
-#nav-boton.activo span:after {
-  transform: rotate(-45deg);
-
-}
-
-#nav-boton.activo span:before {
-  transform: rotate(45deg);
-}
-
-.button1{
-  position: absolute;
-  
-}
-
-.años {
-  width: 100%;
-  height: 50%;
-}
-
-
-footer {
-  background-image: url(../img/footer-04.png);
-  background-size: auto;
-  width: 100%;
-  height: 50%;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-.boton {
-  color: #2581dc;
-}
-
-.foot{
-  text-align: left;
-  color: #cbcbcb;
-  text-align: left;
-  color: #cbcbcb;
-  padding-top: 3vh;
-  padding-bottom: 2rem;
-}
-
-
-/*seccion2*/
-.conoc {
-  font-family: 'Montserrat', sans-serif;
-  text-align: left;
-  color: #5e5e5e;/*color del tipo de la letra*/
-  font-size: 16px;/*tamaño de la letra*/
-  font-weight: lighter;/*hacemos que la letra se haga mas delgada*/
-}
-.conoc b {
-  font-family: 'Montserrat', sans-serif;
-  text-align: left;
-  font-size: 17px;/*tamaño de la letra*/
-  color: #1b3c80;/*color del tipo de la letra*/
-  font-weight:bold;
-  /*writing-mode: vertical-lr; es para poner las letras de costado*/
-}
-/*seccion3*/
-.añit {
-    text-align: center;/*centramos el texto*/
-    font-family: 'Montserrat', sans-serif;/*estilo del tipo de letra*/
-    color: #e8435e;/*color del tipo de la letra*/
-    font-weight:bold;/*hacemos negrita la letra*/
-    font-size: 20px;/*tamaÃ±o de la letra*/
-  
-}
-
-
-.añit1 {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  color: #5e5e5e;/*color del tipo de la letra*/
-  font-size: 15px;/*tamaño de la letra*/
-  font-weight: lighter;/*hacemos que la letra se haga mas delgada*/
-}
-.añit1 b {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  font-size: 15px;/*tamaño de la letra*/
-  color: #5e5e5e;/*color del tipo de la letra*/
-  font-weight:bold;
-}
-
-
-/*seccion4*/
-
-.text1 {
-  padding-left: 10%;
-  padding-right: 10%;
-  font-family: 'Montserrat', sans-serif;
-  text-align: left;/*centramos el texto*/
-  color: #5e5e5e;/*color del tipo de la letra*/
-  font-size: 25px;/*tamaÃ±o de la letra*/
-  font-weight: lighter;/*hacemos que la letra se haga mas delgada*/
-}
-.text2 {
-  padding-left: 10%;
-  padding-right: 10%;
-  text-align: left;/*centramos el texto*/
-  font-family: 'Montserrat', sans-serif;/*estilo del tipo de letra*/
-  color: #1b3c80;/*color del tipo de la letra*/
-  font-weight:bold;/*hacemos negrita la letra*/
-  font-size: 18px;/*tamaÃ±o de la letra*/
-}
-.directivos {
-  padding-left: 10%;
-  padding-right: 10%;
-  font-family: 'Montserrat', sans-serif;
-  text-align: left;
-  font-size: 13px;
-  font-weight:lighter;
-  color: #5e5e5e;
-}
-.directivos b {
-  font-family: 'Montserrat', sans-serif;
-  text-align: left;
-  font-size: 13px;/*tamaño de la letra*/
-  color: #5e5e5e;/*color del tipo de la letra*/
-  font-weight:bold;
-}
-
-
-
-
-
-.conocenosSlider{
-  background-image: url(../img/Mesa\ de\ trabajo\ 72.png);
-  width: 100%;
-  height: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-.conocenos1 {
-  padding-left: 2%;
-  padding-right: 2%;
-  text-align: left;/*centramos el texto*/
-  font-family: 'Montserrat', sans-serif;/*estilo del tipo de letra*/
-  color: #1b3c80;/*color del tipo de la letra*/
-  font-weight:bold;/*hacemos negrita la letra*/
-  font-size: 18px;/*tamaÃ±o de la letra*/
-}
-
-
-.conocenosSlider {
-  background-image: url(../img/Mesa\ de\ trabajo\ 72.png);
-  background-repeat: no-repeat;
-}
-
-nav ul li .active {
-  color: #da445d
-}
-
-.flex{
-  display: flex;
-}
+ }
+ 
+ .header .menu-btn:checked ~ .menu {
+   max-height: 240px;
+ }
+ 
+ .header .menu-btn:checked ~ .menu-icon .navicon {
+   background: transparent;
+ }
+ 
+ .header .menu-btn:checked ~ .menu-icon .navicon:before {
+   transform: rotate(-45deg);
+ }
+ 
+ .header .menu-btn:checked ~ .menu-icon .navicon:after {
+   transform: rotate(45deg);
+ }
+ 
+ .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+ .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+   top: 0;
+ }
+ 

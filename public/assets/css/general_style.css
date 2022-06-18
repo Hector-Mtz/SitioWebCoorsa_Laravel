@@ -6,6 +6,10 @@
     --fuentePrincipal: 'Montserrat'!important;
   }
 
+  .header-menu{
+    display: none;
+  }
+
 /*Servicios seccion1*/
 .section1_servicios{
     display: grid;

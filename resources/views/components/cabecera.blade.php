@@ -13,6 +13,8 @@
      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
      <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
      <!--Estilos Menu-->
+     <link href="{{ asset('assets/css/menu_mobile_style.css') }}" rel="stylesheet">
+
      <link href="{{ asset('assets/css/menu_style.css') }}" rel="stylesheet">
      <!--Estilos General-->
      <link href="{{ asset('assets/css/general_style.css') }}" rel="stylesheet">
@@ -59,21 +61,21 @@
       </div>
       <ul class="nav-menu">
         <li>
-            <a class="active"  href="/index.html">
+            <a class="active"  href="{{url('index')}}">
             <span class="md-border-b-gray pl-4 pb-2">
                 INICIO
             </span> 
             </a>
         </li>
         <li>
-            <a href="/conocenos.html">
+            <a href="{{url('conocenos')}}">
                 <span class="md-border-b-gray pl-4 pb-2">
                     CONÓCENOS        
                 </span>
             </a>
         </li>
         <li>
-            <a href="/detras.html">
+            <a href="{{url('detras')}}">
                 <span class=" pl-4 pb-2">
                     DETRÁS DE        
                 </span>
@@ -82,12 +84,7 @@
         <li style="width: 100%; height: 50vh;">
             <div class="menu-contacto">
                 <div class="text-white">
-                    <p class="text-left">
-                        <a class="pb-2" href="/contacto.html">
-                            <span class="font-weight-900">
-                                contacto 
-                            </span>
-                        </a>
+                    <p class="text-right">
                         <span class="pb-2">
                             <a href="mailto:contacto@coorsamexico.com">contacto@coorsamexico.com</a>
                         </span>
@@ -97,7 +94,7 @@
                         </span>    
                     </p>
                     <div class="col-6">
-                        <a class="btn-grad  btn-grad-blue" href="/contacto.html">Contacto</a>
+                        <a class="btn-grad  btn-grad-blue" href="{{url('contacto')}}">Contacto</a>
                     </div>
                 </div>
                 
@@ -108,3 +105,21 @@
   </section> 
   <a href=""></a>
 </header>
+
+<header class="header" id="header">
+    <a href="{{url('/')}}" class="logo">
+      <img style="width:3rem; heigth:3rem;" src="{{ asset('assets/img/PNG/logos/Logo_Rosa_Coorsa.png') }}" alt="">
+    </a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn">
+      <span class="navicon"></span>
+    </label>
+    <ul class="menu">
+      <li><a href="{{url('/')}}" style="color: white">Servicios</a></li>
+      <li><a href="{{url('conocenos')}}">Conócenos</a></li>
+      <li><a href="{{url('detras')}}">Detrás de</a></li>
+      <li  style="">
+        <a href="{{url('contacto')}}">Contacto</a>
+      </li>
+    </ul>
+  </header>
