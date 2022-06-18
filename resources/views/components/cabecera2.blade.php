@@ -117,9 +117,6 @@
       <img style="width:3rem; heigth:3rem;" src="{{ asset('assets/img/PNG/logos/Logo_Rosa_Coorsa.png') }}" alt="">
     </a>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn">
-      <span class="navicon"></span>
-    </label>
     <ul class="menu">
       <li><a href="{{url('/')}}" style="color: white">Servicios</a></li>
       <li><a href="{{url('conocenos')}}">Conócenos</a></li>

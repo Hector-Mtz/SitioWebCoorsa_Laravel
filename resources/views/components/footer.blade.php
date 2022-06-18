@@ -70,6 +70,18 @@
         $("#header").removeClass("scrolled");
        }
        });
+
+         //Script para  el scroll
+         $(window).scroll(function(){
+       if($("#header2").offset().top > 100)
+       {
+         $("#header2").addClass("scrolled");
+       }
+       else
+       {
+        $("#header2").removeClass("scrolled");
+       }
+       });
   </script>
   
   <script src=" {{ asset('assets/js/menu.js')}}"></script>
