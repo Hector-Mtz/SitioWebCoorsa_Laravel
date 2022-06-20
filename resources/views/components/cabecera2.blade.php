@@ -36,6 +36,12 @@
         background-size: cover;
         height: 5rem
       }
+
+      .scrolled
+      {
+        background-color: #343434;
+        transition: 0.3s;
+      }
     </style>  
      <!--Animacion IMG-->
      <link rel="stylesheet" href="assets/css/style_img.css">
@@ -56,11 +62,11 @@
      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
-<header class="header-menu">
+<header class="header-menu" >
   <!--MENÚ-->
   <section class="navigation">
     <nav>
-      <div class="nav-movil">
+      <div class="nav-movil" id="header">
         <a id="nav-boton" href="#">
           <span></span>
         </a>

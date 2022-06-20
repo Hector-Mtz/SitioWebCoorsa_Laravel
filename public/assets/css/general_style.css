@@ -288,7 +288,7 @@ grid-column: 2 / 3;
    
    .section1--conocenos{
        display: grid;
-       grid-template-columns: repeat(3,1fr);
+       grid-template-columns: repeat(7,1fr);
        grid-template-rows: repeat(6,1fr);
        background-image: url('../img/JPG/fondos/fondo_m_v.jpg');
        background-size: 100% 100%;
@@ -299,7 +299,7 @@ grid-column: 2 / 3;
    }
    
    .section1--conocenos__titulo{
-     grid-column: 2/3;
+     grid-column: 3/6;
      grid-row: 1/2;
      text-align: center;
      color: var(--titulos);
@@ -310,14 +310,17 @@ grid-column: 2 / 3;
    }
    
    .section1--conocenos__vision{
+     grid-column: 1/4;
      grid-row: 3/4;
      text-align: center;
      color: var(--titulos);
      font-family: var(--fuentePrincipal);
      font-size: 30px;
+     margin-top:2%;
    }
    
    .section1--conocenos__vision_text{
+    grid-column: 1/4;
     grid-row: 4/6;
     text-align: justify;
     margin-left: 10%;
@@ -328,17 +331,18 @@ grid-column: 2 / 3;
    }
    
    .section1--conocenos__mision{
-     grid-column: 3/4;
+     grid-column: 5/8;
      grid-row: 3/4;
      text-align: center;
      color:var(--titulos);
      margin-right: 15%;
      font-family: var(--fuentePrincipal);
      font-size: 30px;
+     margin-top:2%;
    }
    
    .section1--conocenos__mision_text{
-     grid-column: 3/4;
+    grid-column: 5/8;
      grid-row: 4/6;
      text-align: justify;
      color:var(--letras);
@@ -693,7 +697,7 @@ grid-column: 2 / 3;
   grid-column: 1/2;
   grid-row: 1/4;
   display: flex;
-    flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .input1{
@@ -701,7 +705,8 @@ grid-column: 2 / 3;
   grid-row: 1/2;
   width: 90%;
   height: 12%;
-  margin: 2%;
+  margin: 4%;
+  margin-top: 10%;
 }
 
 .input2{
@@ -709,7 +714,7 @@ grid-column: 2 / 3;
   grid-row: 2/3;
   width: 90%;
   height: 12%;
-  margin: 2%;
+  margin: 4%;
 }
 
 .input3{
@@ -717,7 +722,11 @@ grid-column: 2 / 3;
   grid-row: 3/4;
   width: 90%;
   height: 12%;
-  margin: 2%;
+  margin: 4%;
+}
+
+.input4{
+  margin-top: 10%;
 }
 
 .form-contacto__button{
@@ -725,12 +734,8 @@ grid-column: 2 / 3;
   border: 1px solid #dc6c7c;
   width: 90%;
   height: 12%;
-  margin: 2%;
+  margin: 4%;
 }
-
-
-
-
 
    
    /*Estilos de Footer*/
