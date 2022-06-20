@@ -20,25 +20,34 @@
     <p class="section1--conocenos__vision_text text">
        <span> Ser </span>
        <span> la </span> 
-       <span> empresa </span>
-       <span> líder </span> 
-       <span> en </span> 
-       <span> soluciones </span>
-       <span> logísticas </span>  
-       <span> y </span> 
-       <span> creando </span> 
-       <span> procesos </span>
-       <span> en </span>  
-       <span> la </span>
+       <strong>
+         <span> empresa </span>
+         <span> líder </span> 
+         <span> en </span> 
+         <span> soluciones </span>
+         <span> logísticas </span>
+         <span>en</span>  
+         <span>México</span>
+      </strong>
+       <span>y</span>
+       <span>en</span>
+       <span> otros </span> 
+       <span> países, </span> 
+       <span> innovando </span>
+       <span> y </span>  
+       <span> creando </span>
+       <span> procesos </span> 
+       <span> en </span>   
+       <span> la </span> 
        <span> cadena </span> 
-       <span> de </span>   
-       <span> suministros </span> 
+       <span> de </span> 
+       <span> suministros,</span> 
        <span> convirtiéndonos </span> 
        <span> en </span> 
        <span> socios </span> 
-       <span> estrátegicos </span> 
-       <span> en </span> 
-       <span> nuestros </span> 
+       <span> estrátegicos </span>
+       <span> de </span>
+       <span> nuestros </span>
        <span> clientes. </span>
     </p>
     <h2 class="section1--conocenos__mision text">
@@ -58,12 +67,14 @@
        <span>de </span>
        <span>alta </span>
        <span>calidad. </span>
-       <span>Haciendo </span>
-       <span>de </span>
-       <span>lo </span>
-       <span>bueno </span>
-       <span>algo </span>
-       <span>mejor.</span>
+       <strong>
+        <span>Haciendo </span>
+        <span>de </span>
+        <span>lo </span>
+        <span>bueno </span>
+        <span>algo </span>
+        <span>mejor.</span>
+       </strong>
     </p>
 </section>
 
@@ -76,7 +87,7 @@
          <div class="swiper mySwiper5">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img  class="" src="assets/img/mobile_img/JPG/elementos/Mision.png"/>
+                <img  class="" src="assets/img/mobile_img/JPG/elementos/MISION.jpg"/>
               </div>
               <div class="swiper-slide">
                 <img  class="" src="assets/img/mobile_img/JPG/elementos/Vision.png">

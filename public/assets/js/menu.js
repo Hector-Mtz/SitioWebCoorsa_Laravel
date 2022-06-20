@@ -28,6 +28,7 @@ $( document ).ready(function() {
 
 });
 
+
 $(document).ready(function() {
   $(".trigger").click(function() {
     $(".menu-whats").toggleClass("active"); 

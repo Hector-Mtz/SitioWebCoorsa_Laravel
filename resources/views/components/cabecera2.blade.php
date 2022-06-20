@@ -4,8 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>COORSA MEXICO</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
-     <!--JQuery-->
-     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+     <!--Bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
      <!--Estilos Menu-->
      <link href="{{ asset('assets/css/normalize.css') }}" rel="stylesheet">
      <!--Fonts-->
@@ -56,11 +56,6 @@
      <link href="{{ asset('assets/css/whatsapp.css') }}" rel="stylesheet">
      <!--FancyBox-->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
-     <!-- Bootstrap -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
-     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <header class="header-menu" >
   <!--MENÚ-->
@@ -132,3 +127,4 @@
       </li>
     </ul>
   </header>
+

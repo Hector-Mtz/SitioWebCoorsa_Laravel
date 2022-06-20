@@ -13,15 +13,16 @@
          <img class="section_map_img" src="assets/img/PNG/elementos/MAPA_QRO.png" alt="">
          <div class="absolute-center" data-container="body">
             <a
-            id="mapPopover"
+            id="mapPopove"
             class="animate-ping circle-red position-absolute"></a>
-            <img src="assets/img/png/logos/LOGO_COORSA_MAPA.png" alt="icon_map" width="100px" height="106px">
+            <img  src="assets/img/png/logos/LOGO_COORSA_MAPA.png" alt="icon_map" width="100px" height="106px">
         </div>
       </div>
       <div class="section1_contacto3__container">
         <h1>Querétaro</h1>
      </div>
   </section>
+
 
   <section class="section3-contacto">
     <div class="section3-contacto__map">
@@ -146,6 +147,4 @@
     </section>
     
 </section>
-
-
 <x-footer></x-footer>
