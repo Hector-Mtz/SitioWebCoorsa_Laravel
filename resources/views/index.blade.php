@@ -20,6 +20,10 @@
               <a href="{{url('contacto')}}">Contáctanos</a>
           </button>
 
+          <button class="section1_servicios__button2">
+            <a href="{{url('conocenos')}}">conócenos</a>
+          </button>
+
           <div class="section1__buttons">
             <div style="float:left ;">
               <a href="https://www.linkedin.com/company/corsa-m%C3%A9xico">

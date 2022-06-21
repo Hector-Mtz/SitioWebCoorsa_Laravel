@@ -80,17 +80,16 @@
 
 <section class="section1__conocenos_1" id="seccion__inicio">
    <h1 class="section1_conocenos_1_text">
-      <span class="barra"></span>
       <br>CONÓCENOS
     </h1>
    <div class="section1__conocenos_1_container">
          <div class="swiper mySwiper5">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img  class="swiper__img5" src="assets/img/mobile_img/JPG/elementos/Mision.png"/>
+                <img  class="swiper__img5" src="assets/img/mobile_img/JPG/elementos/MISION-86.jpg"/>
               </div>
               <div class="swiper-slide">
-                <img  class="swiper__img5" src="assets/img/mobile_img/JPG/elementos/Vision.png">
+                <img  class="swiper__img5" src="assets/img/mobile_img/JPG/elementos/MISION-87.jpg">
               </div> 
             </div> 
         </div>

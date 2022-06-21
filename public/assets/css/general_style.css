@@ -45,6 +45,10 @@
   margin-right: 5rem;
 }
 
+.section1_servicios__button2{
+  display: none;
+}
+
 .section1_servicios__button a{
     text-decoration: none;
     color: white;

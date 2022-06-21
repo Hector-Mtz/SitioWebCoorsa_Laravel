@@ -24,6 +24,7 @@
  .header li a:hover,
  .header .menu-btn:hover {
    background-color: #343434;
+   color: #e8435e;
  }
  
  .header .logo {
