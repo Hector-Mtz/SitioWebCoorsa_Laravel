@@ -571,8 +571,8 @@ grid-column: 2 / 3;
     display: flex;
     font-family: var(--fuentePrincipal);
     color: white;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: space-around;
    }
 
    .section1_contacto2__container{
@@ -737,7 +737,6 @@ grid-column: 2 / 3;
   margin: 4%;
 }
 
-   
    /*Estilos de Footer*/
    .footer{
        display: grid;

@@ -87,10 +87,10 @@
          <div class="swiper mySwiper5">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img  class="" src="assets/img/mobile_img/JPG/elementos/MISION.jpg"/>
+                <img  class="swiper__img5" src="assets/img/mobile_img/JPG/elementos/Mision.png"/>
               </div>
               <div class="swiper-slide">
-                <img  class="" src="assets/img/mobile_img/JPG/elementos/Vision.png">
+                <img  class="swiper__img5" src="assets/img/mobile_img/JPG/elementos/Vision.png">
               </div> 
             </div> 
         </div>

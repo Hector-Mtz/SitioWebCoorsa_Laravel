@@ -45,8 +45,6 @@
     </div>
   </footer>
 
-  <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
-
 <!--SCRIPTS-->
   <!--JQUERY-->
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -56,11 +54,13 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
-  <!--PopOver-->
   
+  <!--PopOver-->
   <script>
-    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
     const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    
+    $('#myPopover').popover();
   </script>
 
   <!--Sliders-->
@@ -113,5 +113,6 @@
   <script src=" {{ asset('assets/js/mapaMx.js')}}"></script>
   <script src="{{ asset('assets/js/chartOrganigrama.js')}}"></script>
   <script src="{{ asset('assets/js/chartOrganigrama_Movil.js')}}"></script>
+  <script src=" {{ asset('assets/js/menu.js')}}"></script>
     
   

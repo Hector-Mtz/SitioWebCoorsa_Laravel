@@ -16,6 +16,10 @@
       display: block;
     }
 
+    .swiper__img5{
+      width:36rem;
+    }
+
        
     .swiper-pagination-bullet{
         width: 2%;

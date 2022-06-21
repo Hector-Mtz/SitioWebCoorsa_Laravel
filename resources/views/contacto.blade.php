@@ -9,12 +9,28 @@
          <h2>y ponte en contacto.</h2>
       </div>
 
+      <style>
+        .custom-popover {
+       --bs-popover-header-bg: var(--bs-primary);
+       --bs-popover-header-color: var(--bs-white);
+       --bs-popover-body-padding-x: 1rem;
+       --bs-popover-body-color:var(--bs-white);
+        }
+      </style>
+
       <div class="section1_contacto_map">
          <img class="section_map_img" src="assets/img/PNG/elementos/MAPA_QRO.png" alt="">
          <div class="absolute-center" data-container="body">
             <a
-            id="mapPopove"
-            class="animate-ping circle-red position-absolute"></a>
+            id="mapPopover"
+            class="animate-ping circle-red position-absolute"
+            data-bs-toggle="popover" 
+            data-bs-custom-class="custom-popover"
+            data-bs-content='
+            Primera cerrada de circuito universidades No. Ext 35 No. Int 31-32, Complejo Industrial
+            Terra Business Park. El Marqués, Querétaro,
+            CP. 76269'
+            ></a>
             <img  src="assets/img/png/logos/LOGO_COORSA_MAPA.png" alt="icon_map" width="100px" height="106px">
         </div>
       </div>
