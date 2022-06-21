@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\contactanosController;
+use App\Http\Controllers\btrabajoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,3 +33,6 @@ Route::get('/detras', function () {
 Route::get('/contacto', function () {
     return view('contacto');
 });
+
+
+Route::get('/BolsaTrabajo', [btrabajoController::class, 'index'])->name('btrabajo.index');
