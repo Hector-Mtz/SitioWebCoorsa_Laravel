@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-  
+
   $('nav ul li > a:not(:only-child)').click(function(e) {
     $(this).siblings('.nav-submenu').toggle();
     $('.nav-submenu').not($(this).siblings()).hide();
@@ -28,7 +28,6 @@ $( document ).ready(function() {
 
 });
 
-
 $(document).ready(function() {
   $(".trigger").click(function() {
     $(".menu-whats").toggleClass("active"); 
@@ -54,3 +53,5 @@ $(document).ready(function() {
     placement : "top",
   }); 
 });
+
+ 
