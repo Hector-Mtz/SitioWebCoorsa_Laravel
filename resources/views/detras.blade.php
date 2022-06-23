@@ -40,24 +40,24 @@
        <div class="swiper-slide">
         <div class="picture">
           <p class="imglist">
-             <a href="assets/img/JPG/detras/anio_nuevo/1.jpg" data-fancybox="anio_nuevo">
+             <a href="assets/img/JPG/detras/anio_nuevo/1.JPG" data-fancybox="anio_nuevo">
                <img src="assets/img/JPG/Detras_de_35_opacidad_2.jpg" />
              </a>
              <div style="display: none">
-                 <a href="assets/img/JPG/detras/anio_nuevo/2.jpg" data-fancybox="anio_nuevo">
-                   <img src="assets/img/JPG/detras/anio_nuevo/2.jpg" />
+                 <a href="assets/img/JPG/detras/anio_nuevo/2.JPG" data-fancybox="anio_nuevo">
+                   <img src="assets/img/JPG/detras/anio_nuevo/2.JPG" />
                  </a>
-                 <a href="assets/img/JPG/detras/anio_nuevo/3.jpg" data-fancybox="anio_nuevo">
-                   <img src="assets/img/JPG/detras/anio_nuevo/3.jpg" />
+                 <a href="assets/img/JPG/detras/anio_nuevo/3.JPG" data-fancybox="anio_nuevo">
+                   <img src="assets/img/JPG/detras/anio_nuevo/3.JPG" />
                  </a>
-                 <a href="assets/img/JPG/detras/anio_nuevo/4.jpg" data-fancybox="anio_nuevo">
-                  <img src="assets/img/JPG/detras/anio_nuevo/4.jpg" />
+                 <a href="assets/img/JPG/detras/anio_nuevo/4.JPG" data-fancybox="anio_nuevo">
+                  <img src="assets/img/JPG/detras/anio_nuevo/4.JPG" />
                 </a>
-                <a href="assets/img/JPG/detras/anio_nuevo/5.jpg" data-fancybox="anio_nuevo">
-                  <img src="assets/img/JPG/detras/anio_nuevo/5.jpg" />
+                <a href="assets/img/JPG/detras/anio_nuevo/5.JPG" data-fancybox="anio_nuevo">
+                  <img src="assets/img/JPG/detras/anio_nuevo/5.JPG" />
                 </a>
-                <a href="assets/img/JPG/detras/anio_nuevo/6.jpg" data-fancybox="anio_nuevo">
-                  <img src="assets/img/JPG/detras/anio_nuevo/6.jpg" />
+                <a href="assets/img/JPG/detras/anio_nuevo/6.JPG" data-fancybox="anio_nuevo">
+                  <img src="assets/img/JPG/detras/anio_nuevo/6.JPG" />
                 </a>
              </div>
           </p>
@@ -67,24 +67,24 @@
       <div class="swiper-slide">
         <div class="picture">
           <p class="imglist">
-             <a href="assets/img/JPG/detras/asociacion/1.jpg" data-fancybox="asociacion">
+             <a href="assets/img/JPG/detras/asociacion/1.JPG" data-fancybox="asociacion">
                <img src="assets/img/JPG/Detras_de_35_opacidad_3.jpg" />
              </a>
              <div style="display: none">
-                 <a href="assets/img/JPG/detras/asociacion/2.jpg" data-fancybox="asociacion">
-                   <img src="assets/img/JPG/detras/asociacion/2.jpg" />
+                 <a href="assets/img/JPG/detras/asociacion/2.JPG" data-fancybox="asociacion">
+                   <img src="assets/img/JPG/detras/asociacion/2.JPG" />
                  </a>
-                 <a href="assets/img/JPG/detras/asociacion/3.jpg" data-fancybox="asociacion">
-                   <img src="assets/img/JPG/detras/asociacion/3.jpg" />
+                 <a href="assets/img/JPG/detras/asociacion/3.JPG" data-fancybox="asociacion">
+                   <img src="assets/img/JPG/detras/asociacion/3.JPG" />
                  </a>
-                 <a href="assets/img/JPG/detras/asociacion/4.jpg" data-fancybox="asociacion">
-                  <img src="assets/img/JPG/detras/asociacion/4.jpg" />
+                 <a href="assets/img/JPG/detras/asociacion/4.JPG" data-fancybox="asociacion">
+                  <img src="assets/img/JPG/detras/asociacion/4.JPG" />
                 </a>
-                <a href="assets/img/JPG/detras/asociacion/5.jpg" data-fancybox="asociacion">
-                  <img src="assets/img/JPG/detras/asociacion/5.jpg" />
+                <a href="assets/img/JPG/detras/asociacion/5.JPG" data-fancybox="asociacion">
+                  <img src="assets/img/JPG/detras/asociacion/5.JPG" />
                 </a>
-                <a href="assets/img/JPG/detras/asociacion/6.jpg" data-fancybox="asociacion">
-                  <img src="assets/img/JPG/detras/asociacion/6.jpg" />
+                <a href="assets/img/JPG/detras/asociacion/6.JPG" data-fancybox="asociacion">
+                  <img src="assets/img/JPG/detras/asociacion/6.JPG" />
                 </a>
              </div>
           </p>
@@ -102,10 +102,10 @@
   <section class="clientes">
       <div class="px-4 top-menu-background">
           <div class="ml-4">
-              <h5 class="d-inline text-blue font-weight-900">
+              <h2 class="d-inline text-blue font-weight-900 seccion3_1_detrasde_text1">
                   DETRÁS DE
-              </h5> 
-              <p class="h5 text-gray-500">COORSA
+              </h2> 
+              <p class="h5 text-gray-500 seccion3_1_detrasde_text2">COORSA
               </p>
           </div>
           <article>

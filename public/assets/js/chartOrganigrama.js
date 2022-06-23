@@ -64,9 +64,9 @@ am4core.useTheme(am4themes_animated);
             value: 3
           },
           { 
-            name: "Karen Avila",
+            name: "Roberto Rios",
             value: 3,
-            "image": "./assets/img/PNG/organigrama/Karen_Avila.png",
+            "image": "./assets/img/PNG/organigrama/Roberto_Rios.png",
             collapsed:true,
             children: [
               { 
@@ -75,7 +75,7 @@ am4core.useTheme(am4themes_animated);
                 value: 2
               },
               { 
-                name: "Martinz Vazquez",
+                name: "Martin Vazquez",
                 "image": "./assets/img/PNG/organigrama/Martin_Vazquez.png", 
                 value: 2
               },
@@ -102,7 +102,7 @@ organigramaSeries.dataFields.id = "name";
 organigramaSeries.dataFields.children = "children";
 organigramaSeries.dataFields.linkWith = "link";
 organigramaSeries.dataFields.collapsed="collapsed"
-organigramaSeries.minRadius = 35;
+organigramaSeries.minRadius = 20;
 // Configure circles
 organigramaSeries.nodes.template.circle.disabled = true;
 organigramaSeries.nodes.template.outerCircle.disabled = true;
@@ -146,8 +146,8 @@ var icon = organigramaSeries.nodes.template.createChild(am4core.Image);
 icon.propertyFields.href = "image";
 icon.horizontalCenter = "middle";
 icon.verticalCenter = "middle";
-icon.width = 240;
-icon.height =  240;
+icon.width = 250;
+icon.height =  250;
 // icon.widthRatio = 0.9;
 
 
@@ -158,3 +158,18 @@ organigramaSeries.centerStrength = 0.4;
 
 organigramaSeries.links.template.strokeWidth = 2;
 organigramaSeries.dataFields.fixed = "fixed";
+
+chart.responsive.enabled = true;
+
+chart.responsive.rules.push({
+  relevant: function(target) {
+    if (target.pixelWidth <= 500) {
+      icon.width = 150;
+      icon.height =  150;
+    }
+    return false;
+  },
+  state: function(target, stateId) {
+    return;
+  }
+});
