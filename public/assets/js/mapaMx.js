@@ -77,8 +77,8 @@ cityImage.horizontalCenter = "middle";
 cityImage.verticalCenter = "middle";
 cityImage.href = "./assets/img/SVG/icono_mapa_city.svg";
 cityImage.fill = chart.colors.getIndex(0).brighten(-0.2);
-cityImage.stroke = am4core.color("#fff");
-cityImage.width = 100;
+cityImage.stroke = am4core.color("#0000");
+cityImage.width = 10000;
 
 
 
@@ -187,7 +187,7 @@ function flyPlane() {
         from = 0
         to = 1;
         if (trunkImage1.rotation != 0) {
-            trunkImage1.animate({ to: 0, property: "rotation" }, 1000).events.on("animationended", flyPlane);
+            trunkImage1.animate({ to: 0, property: "rotation" }, 1500).events.on("animationended", flyPlane);
             return;
         }
     }
@@ -296,7 +296,7 @@ function flyTruck2() {//creamos nuestra función para que el avión haga rotaci�
             trunkImage2.animate({
                 to: 0,
                 property: "rotation"
-            }, 1000).events.on("animationended", flyTruck2);
+            }, 1500).events.on("animationended", flyTruck2);
             return;
         }
     } else {
@@ -306,7 +306,7 @@ function flyTruck2() {//creamos nuestra función para que el avión haga rotaci�
             trunkImage2.animate({
                 to: 180,
                 property: "rotation"
-            }, 1000).events.on("animationended", flyTruck2);
+            }, 1500).events.on("animationended", flyTruck2);
             return;
         }
     }
@@ -400,7 +400,7 @@ function flyTruck3() {//creamos nuestra función para que el avión haga rotaci�
             trunkImage3.animate({
                 to: 0,
                 property: "rotation"
-            }, 1000).events.on("animationended", flyTruck3);
+            }, 1500).events.on("animationended", flyTruck3);
             return;
         }
     } else {
@@ -410,7 +410,7 @@ function flyTruck3() {//creamos nuestra función para que el avión haga rotaci�
             trunkImage3.animate({
                 to: 180,
                 property: "rotation"
-            }, 1000).events.on("animationended", flyTruck3);
+            }, 1500).events.on("animationended", flyTruck3);
             return;
         }
     }
@@ -420,7 +420,7 @@ function flyTruck3() {//creamos nuestra función para que el avión haga rotaci�
         from: from,
         to: to,
         property: "position"
-    }, 1000, am4core.ease.sinInOut);
+    }, 1500, am4core.ease.sinInOut);
     animation.events.on("animationended", flyTruck3)
    
     // Increment line, or reverse the direction
