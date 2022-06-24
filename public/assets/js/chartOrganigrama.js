@@ -70,19 +70,24 @@ am4core.useTheme(am4themes_animated);
             collapsed:true,
             children: [
               { 
-                name: "Andrea Garcia",
-                "image": "./assets/img/PNG/organigrama/Andrea_Garcia.png", 
-                value: 2
+                name: "Vanessa Flores",
+                "image": "./assets/img/PNG/organigrama/Vanessa_Flores.png", 
+                value: 3
               },
               { 
                 name: "Martin Vazquez",
                 "image": "./assets/img/PNG/organigrama/Martin_Vazquez.png", 
-                value: 2
+                value: 3
               },
               { 
                 name: "Fernanda Cardenas",
                 "image": "./assets/img/PNG/organigrama/Fernanda_Cardenas.png", 
-                value: 2 
+                value: 3
+              },
+              { 
+                name: "Edith Gonzalez",
+                "image": "./assets/img/PNG/organigrama/Edith_Gonzalez.png", 
+                value: 3
               },
             ],
           }
