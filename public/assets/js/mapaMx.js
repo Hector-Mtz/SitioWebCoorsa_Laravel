@@ -78,7 +78,7 @@ cityImage.verticalCenter = "middle";
 cityImage.href = "./assets/img/SVG/icono_mapa_city.svg";
 cityImage.fill = chart.colors.getIndex(0).brighten(-0.2);
 cityImage.stroke = am4core.color("#fff");
-cityImage.width = 30;
+cityImage.width = 100;
 
 
 
@@ -159,8 +159,8 @@ truckViaje1.height = 18;
 
 var trunkImage1 = truckViaje1.createChild(am4core.Image);
 trunkImage1.scale = 2.0;
-trunkImage1.width = 18;
-trunkImage1.height = 18;
+trunkImage1.width = 40;
+trunkImage1.height = 40;
 trunkImage1.horizontalCenter = "middle";
 trunkImage1.verticalCenter = "middle";
 trunkImage1.href = "./assets/img/SVG/camioncito.svg";
@@ -206,7 +206,7 @@ function flyPlane() {
         from: from,
         to: to,
         property: "position"
-    }, 3000, am4core.ease.sinInOut);
+    }, 1000, am4core.ease.sinInOut);
     animation.events.on("animationended", flyPlane)
     
 
@@ -266,8 +266,8 @@ truckViaje2.height = 18;
 
 var trunkImage2 = truckViaje2.createChild(am4core.Image);
 trunkImage2.scale = 2.0;
-trunkImage2.width = 18;
-trunkImage2.height = 18;
+trunkImage2.width = 40;
+trunkImage2.height = 40;
 trunkImage2.horizontalCenter = "middle";
 trunkImage2.verticalCenter = "middle";
 trunkImage2.href = "./assets/img/SVG/camioncito.svg";
@@ -316,7 +316,7 @@ function flyTruck2() {//creamos nuestra función para que el avión haga rotaci�
         from: from,
         to: to,
         property: "position"
-    }, 5000, am4core.ease.sinInOut);
+    }, 1000, am4core.ease.sinInOut);
     animation.events.on("animationended", flyTruck2)
   
 
@@ -369,8 +369,8 @@ truckViaje3.height = 18;
 
 var trunkImage3 = truckViaje3.createChild(am4core.Image);
 trunkImage3.scale = 2.0;
-trunkImage3.width = 18;
-trunkImage3.height = 18;
+trunkImage3.width = 40;
+trunkImage3.height = 40;
 trunkImage3.horizontalCenter = "middle";
 trunkImage3.verticalCenter = "middle";
 trunkImage3.href = "./assets/img/SVG/camioncito.svg";
@@ -420,7 +420,7 @@ function flyTruck3() {//creamos nuestra función para que el avión haga rotaci�
         from: from,
         to: to,
         property: "position"
-    }, 5000, am4core.ease.sinInOut);
+    }, 1000, am4core.ease.sinInOut);
     animation.events.on("animationended", flyTruck3)
    
     // Increment line, or reverse the direction
