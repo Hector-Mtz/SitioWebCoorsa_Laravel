@@ -136,12 +136,12 @@ setTimeout(()=> {
       setTimeout(()=> {
         data[0].children[3].children[2].collapsed = false; 
         chart.data= data;
-      },1000);
-    },1000);
+      },2000);
+    },2000);
 
-  },1000);
+  },2000);
 
-},2000);
+},4000)
 //Hidden child
 // organigramaSeries.maxLevels = 1;
 // // Expand single level only
