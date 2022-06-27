@@ -10,13 +10,13 @@
       </div>
 
       <div class="section1_contacto_map">
-         <img class="section_map_img" src="assets/img/PNG/elementos/MAPA_QRO.png" alt="">
-         <div class="absolute-center" data-container="body">
-            <a
-              id="mapPopover"
-              class="animate-ping circle-red position-absolute"></a>
-            <img  src="assets/img/png/logos/LOGO_COORSA_MAPA.png" alt="icon_map" width="100px" height="106px">
-        </div>
+        <a id="mapPopover"  data-trigger="hover">
+           <img  class="section_map_img" src="assets/img/PNG/elementos/MAPA_QRO.png" alt="">
+           <div class="absolute-center" data-container="body">
+              <a class="animate-ping circle-red position-absolute"></a>
+              <img  src="assets/img/png/logos/LOGO_COORSA_MAPA.png" alt="icon_map" width="100px" height="106px">
+          </div>
+        </a>
       </div>
       <div class="section1_contacto3__container">
         <h1>Querétaro</h1>

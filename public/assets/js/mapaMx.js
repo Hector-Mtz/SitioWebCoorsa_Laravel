@@ -78,7 +78,7 @@ cityImage.verticalCenter = "middle";
 cityImage.href = "./assets/img/SVG/icono_mapa_city.svg";
 cityImage.fill = chart.colors.getIndex(0).brighten(-0.2);
 cityImage.stroke = am4core.color("#0000");
-cityImage.width = 10000;
+cityImage.width = 40;
 
 
 
@@ -438,3 +438,26 @@ function flyTruck3() {//creamos nuestra función para que el avión haga rotaci�
 // Go!
 flyTruck3();
 
+chart.responsive.enabled = true;
+
+chart.responsive.rules.push({
+  relevant: function(target) {
+    if (target.pixelWidth <= 500) {
+
+        cityImage.width = 20;
+
+        trunkImage1.width = 18;
+        trunkImage1.height = 18;
+
+        trunkImage2.width = 18;
+        trunkImage2.height = 18;
+
+        trunkImage3.width = 18;
+        trunkImage3.height = 18;
+    }
+    return false;
+  },
+  state: function(target, stateId) {
+    return;
+  }
+});
