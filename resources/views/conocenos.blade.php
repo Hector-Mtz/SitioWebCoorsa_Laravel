@@ -114,8 +114,9 @@
  </section>
 
  <section class="section3--conocenos2">
-   <div id="chartOrganigrama_Movil"></div>
- </section>
+  <div id="chartOrganigrama_Movil">
+  </div>
+</section>
 
  <section class="section4--conocenos">
     <div class="section4--conocenos__conteiner">

@@ -10,7 +10,7 @@
                 Ideamos 
                 <strong>soluciones innovadoras</strong> 
                 de <br> logística 
-                <strong>para tí y tu empresa</strong> .
+                <strong>para ti y tu empresa</strong> .
              </h2>
           </div>
 
@@ -72,7 +72,7 @@
                     <img class="container-section3__img" src="{{ asset('assets/img/JPG/servicios/Servicio_1.jpg') }}" />
                     <div class="info">
                        <h2 class="info__text">
-                         Evitar rechazos es el objetivo
+                         Evitar rechazos es el objetivo.
                        </h2>
                     </div>
                   </div> 

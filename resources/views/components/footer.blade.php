@@ -100,9 +100,16 @@
   <script src="https://www.amcharts.com/lib/4/geodata/usaLow.js"></script>
   <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
   <script src="https://cdn.amcharts.com/lib/4/plugins/forceDirected.js"></script>
+
+  
+<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/hierarchy.js"></script>
+<script src="//cdn.amcharts.com/lib/5/themes/Responsive.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
+
   <script src=" {{ asset('assets/js/mapaMx.js')}}"></script>
   <script src="{{ asset('assets/js/chartOrganigrama.js')}}"></script>
-  <script src="{{ asset('assets/js/chartOrganigrama_Movil.js')}}"></script>
   <script src=" {{ asset('assets/js/menu.js')}}"></script>
     
   
