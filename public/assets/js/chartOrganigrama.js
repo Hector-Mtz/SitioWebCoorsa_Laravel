@@ -25,7 +25,6 @@ var data = [{
   children:  [
         {
         value:4,
-        collapsed:true,
         image: "./assets/img/PNG/organigrama/Patricia_Palma.png"
       }, 
       {
@@ -46,35 +45,28 @@ var data = [{
               collapsed:true,
               children:[
                   { 
-                    collapsed:true,
                       "image": "./assets/img/PNG/organigrama/Vanessa_Flores.png", 
                     },
                     { 
-                      collapsed:true,
                       "image": "./assets/img/PNG/organigrama/Martin_Vazquez.png", 
                     },
                     { 
-                      collapsed:true,
                       "image": "./assets/img/PNG/organigrama/Fernanda_Cardenas.png", 
                     },
                     { 
-                      collapsed:true,
                       "image": "./assets/img/PNG/organigrama/Edith_Gonzalez.png", 
                     }
               ]
             },
             { 
-              collapsed:true,
               "image": "./assets/img/PNG/organigrama/Eduardo_Rendon.png", 
             },
             { 
-              collapsed:true,
               "image": "./assets/img/PNG/organigrama/Roberto_Rivera.png", 
             }
         ]
       },
        {
-          collapsed:true,
           image: "./assets/img/PNG/organigrama/Vania_Jimenez.png"
         }
       ]
@@ -88,15 +80,17 @@ var container = root.container.children.push(
     layout: root.verticalLayout,
     valueYField: "value", 
     valueXField: "date",
-    collapsed: "collapsed",
-    
-
   })
 );
 
+
+
 var series = container.children.push(
   am5hierarchy.Tree.new(root, {
-    singleBranchOnly: false,
+    name:"series",
+    singleBranchOnly: true,
+    sequencedInterpolation:true,
+    sequencedDelay:2000,
     downDepth: 1,
     initialDepth: 5,
     topDepth: 0,
@@ -104,15 +98,27 @@ var series = container.children.push(
     categoryField: "name",
     childDataField: "children",
     paddingTop:100,
-    paddingBottom:100
+    paddingBottom:100,
+    tooltip: am5.Tooltip.new(root, {
+      pointerOrientation: "vertical",
+      forceHidden:true
+    }),
+    interactive: true,
+    stateAnimationDuration: 000,
+    stateAnimationEasing: am5.ease.out(am5.ease.cubic),
+    sequencedInterpolation: true,
+    sequencedDelay: 1000,
+    InitialFrames:5003
+    
   })
 );
 
 // Disable circles
 series.circles.template.setAll({
-  radius: 40,
-  forceHidden: true
+  radius: 20,
+  forceHidden: false
 });
+
 
 series.outerCircles.template.setAll({
   radius: 40,
@@ -133,40 +139,25 @@ series.labels.template.setAll({
 series.nodes.template.setup = function(target) {
   target.events.on("dataitemchanged", function(ev) {
     var icon = target.children.push(am5.Picture.new(root, {
-      width: 140,
-      height: 160,
+      width: 160,
+      height: 190,
       centerX: am5.percent(50),
       centerY: am5.percent(50),
-      src: ev.target.dataItem.dataContext.image
+      src: ev.target.dataItem.dataContext.image,
+      sequencedInterpolation: true,
+      sequencedDelay: 40000
     }));
   });
 }
+
 
 series.data.setAll(data);
 series.set("selectedDataItem", series.dataItems[0]);
 
 
-chart.data = data;
-
-console.log(data[0].children[1]);
-
-setTimeout(()=> {
+setTimeout(()=> 
+{
   data[0].collapsed = false; 
-  chart.data= data;
-  //show childs Zamira
-  setTimeout(()=> {
-    data[0].children[1].collapsed = false; 
-    chart.data= data;
-    //show childs Zamira
-    setTimeout(()=> {
-      data[0].children[3].collapsed = false; 
-      chart.data= data;
-      setTimeout(()=> {
-        data[0].children[3].children[2].collapsed = false; 
-        chart.data= data;
-      },2000);
-    },2000);
-
-  },2000);
-
-},4000)
+  console.log(data[0]);
+  chart.data
+},4000);
