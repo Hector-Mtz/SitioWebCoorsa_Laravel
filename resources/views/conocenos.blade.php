@@ -108,12 +108,12 @@
    </h4>
  </section>
  
- <section class="section3--conocenos">
+ <section class="section3--conocenos collpase">
    <div id="chartOrganigrama">
    </div>
  </section>
 
- <section class="section3--conocenos2">
+ <section class="section3--conocenos2 ">
   <div id="chartOrganigrama_Movil">
   </div>
 </section>
