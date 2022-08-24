@@ -78,7 +78,8 @@ cityImage.verticalCenter = "middle";
 cityImage.href = "./assets/img/SVG/icono_mapa_city.svg";
 cityImage.fill = chart.colors.getIndex(0).brighten(-0.2);
 cityImage.stroke = am4core.color("#0000");
-cityImage.width = 40;
+cityImage.width = 100;
+cityImage.height = 60;
 
 
 
@@ -93,8 +94,8 @@ function addCity(coords, title) {
     var label = cityImage.createChild(am4core.Label);
     label.horizontalCenter = "middle";
     label.verticalCenter = "middle";
-    label.fill = am4core.color("#5e5e5e");
-    label.text= `[font-size:8pt]${title}`;
+    label.fill = am4core.color("#000");
+    label.text= `[font-size:15pt]${title}`;
     label.nonScaling = false;
     
     label.dy = 18;
