@@ -59,6 +59,28 @@
               <strong>OFRECERTE</strong>
             </h1>
         </div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
      </section>
   </main>
 
@@ -68,12 +90,14 @@
           <div class="swiper mySwiper">
              <div class="swiper-wrapper">
                <div class="swiper-slide">
-                 <div class="card" style="height: 80%;">
-                    <img class="container-section3__img" src="{{ asset('assets/img/JPG/servicios/Servicio_1.jpg') }}" />
+                 <div class="card" style="height: 80%;" data-toggle="modal" data-target="#exampleModal">
+                    
+                    <img class="container-section3__img"  src="{{ asset('assets/img/JPG/servicios/Servicio_1.jpg') }}"/>
                     <div class="info">
                        <h2 class="info__text">
                          Evitar rechazos es el objetivo.
                        </h2>
+                       
                     </div>
                   </div> 
                </div>
@@ -465,6 +489,8 @@
         </div>
       </div>
     </section>
-<!--Importamos la cabecera-->
+</div>
+
+<!--Importamos la footer-->
 <x-footer></x-footer>
 </body>
