@@ -59,6 +59,104 @@
               <strong>OFRECERTE</strong>
             </h1>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img class="modal_logo" src="{{ asset('assets/img/modals/modal1/img5.png') }}">
+
+                 <div class="text_modal_group">
+                  <h5 class="h5Modal" id="exampleModalLabel">Servicio</h5>
+                  <h4 class="h4Modal" id="exampleModalLabel">01. Auditoria inteligente<br>MARK</h4>
+                 </div>
+
+                <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true" class="buttonCloseModal">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="page fs">
+                  <div class="modal_img">
+                    <img class="img1_modal" src="{{ asset('assets/img/modals/modal1/img6.jpg') }}">
+                  </div>
+                   <div class="modal_texts">
+                       <h4>¿Beneficios logísticos?</h4>
+                       <ul class="viñetas_group">
+                         <li><span>Eliminación</span> de faltantes,sobrantes, códigos cambiados y daños.</li>
+                         <li><span>Eficiencia</span> logística con la medición de tiempos de auditoría y carga.</li>
+                         <li>Barras con % de avances de auditorías y cargas.</li>
+                         <li><span>Evidencias fotográficas</span> de la carga completa.</li>
+                         <li><span>Tarimas no olvidadas</span> en centro de distribución.</li>
+                         <li><span>Rastreabilidad</span> de mercancia.</li>
+                       </ul>
+                   </div>
+                   <div class="modal_text1">
+                      <h5><span>1. </span> Conteo de piezas<br>dentro de una caja.</h5>
+                   </div>
+                   <div class="modal_text2">
+                    <h5><span>2. </span> Conteo de cajas dentro de<br>una tarima(picking y pallet).</h5>
+                 </div>
+                 <div class="modal_text3">
+                  <h5><span>3. </span> Conteo de tarimas en un camión.</h5>
+               </div>
+                </div>
+                <div class="page sc">
+                  <img class="sc_img" src="{{ asset('assets/img/modals/modal1/img2.png') }}">
+                  <h3 class="sc_text">Un dispositivo inteligente que permite tener la trazabilidad<br>
+                    y confianza de que tus tarimas fueron cargadas completas<br>
+                    y correctamente en el camión.
+                  </h3>
+                  <div class="sc_texts1">
+                    <h3>Descripción</h3>
+                    <p>Este dispositivo cuenta con <span>sensores, alertas sonoras, iluminación</span>
+                      y lectores líquidos de alta<br> velocidad, capaz de auditar y evidenciar la
+                      mercancía cargada en el transporte.
+                    </p>
+                  </div>
+                  <div class="sc_texts2">
+                    <h3>Nuestra visión</h3>
+                    <p>Generar <span>cargas confiables</span> y <span>evidencias fotografícas</span> que
+                      permitan una entrega a cliente sin<br> incidencias ni desviaciones. Garantizando
+                      el rastreo total del producto.
+                     </p>
+                  </div>
+                  <img class="sc_mark_logo" src="{{ asset('assets/img/modals/modal1/img1.png') }}">
+                  <img class="sc_mark_process" src="{{ asset('assets/img/modals/modal1/img3.png') }}">
+                </div>
+                <div class="page th">
+                  <div class="th_texts">
+                    <ul class="viñetas_group">
+                      <li>Nada se escapa a los ojos de Mark, puede leer y tomar<br>tomar fotografías a altas velocidades (30fps).</li>
+                      <li>Visualiza el contenido de cada tarima.</li>
+                      <li>Pantalla con % de avance de auditoría y carga.</li>
+                      <li>Desplázalo fácilmente a cualquier cortina.</li>
+                      <li>Creación automática de layout de carga.</li>
+                      <li>Detección de tarimas faltantes o incorrectas en el proceso de carga.</li>
+                    </ul>
+                  </div>  
+                  <img class="th_img" src="{{ asset('assets/img/modals/modal1/img7.jpg') }}" alt="">
+                  <h5 class="th_h3">¡Deja atrás los procesos manuales y <br>atrévete a cambiar!</h5>
+                  <img class="th_img2" src="{{ asset('assets/img/modals/modal1/img4.png') }}" alt="">
+                </div>
+
+                <!--
+                <div class="page fr">
+                
+                </div>
+                -->
+              </div>
+              <!--
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+               -->
+            </div>
+          </div>
+        </div>
+
      </section>
   </main>
 
@@ -68,12 +166,14 @@
           <div class="swiper mySwiper">
              <div class="swiper-wrapper">
                <div class="swiper-slide">
-                 <div class="card" style="height: 80%;">
-                    <img class="container-section3__img" src="{{ asset('assets/img/JPG/servicios/Servicio_1.jpg') }}" />
+                 <div class="card" style="height: 80%;" data-toggle="modal" data-target="#exampleModal">
+                    
+                    <img class="container-section3__img"  src="{{ asset('assets/img/JPG/servicios/Servicio_1.jpg') }}"/>
                     <div class="info">
                        <h2 class="info__text">
                          Evitar rechazos es el objetivo.
                        </h2>
+                       
                     </div>
                   </div> 
                </div>
@@ -465,6 +565,8 @@
         </div>
       </div>
     </section>
-<!--Importamos la cabecera-->
+</div>
+
+<!--Importamos la footer-->
 <x-footer></x-footer>
 </body>
