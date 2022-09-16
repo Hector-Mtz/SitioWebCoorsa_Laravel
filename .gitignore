@@ -1,2 +1,17 @@
+<<<<<<< HEAD
 node_modules
 node_modules
+=======
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+>>>>>>> 82470216eeaf5b9cfbd8efe1b0b32c01bf6f01cd

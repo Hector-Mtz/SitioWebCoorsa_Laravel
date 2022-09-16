@@ -60,6 +60,10 @@
             </h1>
         </div>
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 82470216eeaf5b9cfbd8efe1b0b32c01bf6f01cd
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
@@ -100,6 +104,7 @@
                  </div>
                  <div class="modal_text3">
                   <h5><span>3. </span> Conteo de tarimas en un camión.</h5>
+<<<<<<< HEAD
                  </div>
                   <div class="fs_blur">
                      
@@ -110,6 +115,12 @@
                   <button type="button" class="close " data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true" class="buttonCloseModal">&times;</span>
                   </button>
+=======
+               </div>
+                </div>
+                <div class="page sc">
+                  <img class="sc_img" src="{{ asset('assets/img/modals/modal1/img2.png') }}">
+>>>>>>> 82470216eeaf5b9cfbd8efe1b0b32c01bf6f01cd
                   <h3 class="sc_text">Un dispositivo inteligente que permite tener la trazabilidad<br>
                     y confianza de que tus tarimas fueron cargadas completas<br>
                     y correctamente en el camión.
@@ -130,7 +141,10 @@
                   </div>
                   <img class="sc_mark_logo" src="{{ asset('assets/img/modals/modal1/img1.png') }}">
                   <img class="sc_mark_process" src="{{ asset('assets/img/modals/modal1/img3.png') }}">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 82470216eeaf5b9cfbd8efe1b0b32c01bf6f01cd
                 </div>
                 <div class="page th">
                   <div class="th_texts">
@@ -143,11 +157,15 @@
                       <li>Detección de tarimas faltantes o incorrectas en el proceso de carga.</li>
                     </ul>
                   </div>  
+<<<<<<< HEAD
 
                   <img class="th_img" src="{{ asset('assets/img/modals/modal1/img7.jpg') }}" alt="">
                   <button type="button" class="close" style="grid-column: 6/7; margin-left: 10rem; margin-top: 5rem;" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true" class="buttonCloseModal">&times;</span>
                   </button>
+=======
+                  <img class="th_img" src="{{ asset('assets/img/modals/modal1/img7.jpg') }}" alt="">
+>>>>>>> 82470216eeaf5b9cfbd8efe1b0b32c01bf6f01cd
                   <h5 class="th_h3">¡Deja atrás los procesos manuales y <br>atrévete a cambiar!</h5>
                   <img class="th_img2" src="{{ asset('assets/img/modals/modal1/img4.png') }}" alt="">
                 </div>
@@ -167,6 +185,7 @@
             </div>
           </div>
         </div>
+<<<<<<< HEAD
 
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -205,6 +224,30 @@
                     </div>
                   </div>
 
+=======
+=======
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+>>>>>>> 16b014989400d799931f801ac74636eaadefa3f4
+>>>>>>> 82470216eeaf5b9cfbd8efe1b0b32c01bf6f01cd
 
      </section>
   </main>
@@ -227,7 +270,11 @@
                   </div> 
                </div>
                <div class="swiper-slide">
+<<<<<<< HEAD
                  <div class="card" style="height: 80%;" data-toggle="modal" data-target="#exampleModal2">
+=======
+                 <div class="card" style="height: 80%;">
+>>>>>>> 82470216eeaf5b9cfbd8efe1b0b32c01bf6f01cd
                    <img  class="container-section3__img" src="{{ asset('assets/img/JPG/servicios/Servicio_2.jpg') }}"/>
                    <div class="info">
                        <h2 class="info__text">
